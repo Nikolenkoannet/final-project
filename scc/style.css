@@ -1,5 +1,5 @@
-@import url("./fonts/stylesheet.css");
-@import url("./normalize.css");
+@import url(../fonts/stylesheet.css);
+@import url(../normalize.css);
 
 * {
   box-sizing: border-box;
@@ -85,6 +85,10 @@ body {
   border-radius: 12px;
 }
 
+.portret {
+  width: 100%;
+  object-fit: cover;
+}
 
 .team-link {
   text-decoration: none;
@@ -305,6 +309,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 60px;
   }
+  
   .trust-us {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -312,10 +317,12 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .publications-box:nth-child(3){
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .publications-item:nth-child(3) {
     grid-column: 1/-1;
   }
-  
 }
 
 @media (min-width: 1024px) {
@@ -328,6 +335,11 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 60px;
   }
+
+  .teams {
+    display: flex;
+    justify-content: baseline;
+  }
   .trust-us {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -337,8 +349,10 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
-  
+
+
 }
+
 @media (min-width: 1920px) {
   .wrapper {
     padding-left: 160px;
@@ -348,6 +362,7 @@ body {
     display: grid;
     gap: 60px;
   }
+  
   .trust-us {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./scc/style.css">
     <title>hlegal</title>
 </head>
 <body>
@@ -82,10 +82,13 @@
     <section class="team">
         <div class="wrapper">
             <div class="teams">
-                <img class="portret"
-                src="./images/portret.jpg" 
-                alt="portret"
-                >
+                <picture class="portret">
+                    <source srcset="./images/image-desktop.jpg" media="(min-width: 1920px)">
+                    <source srcset="./images/image-tablet-hd.jpg" media="(min-width: 1024px)">
+                    <source srcset="./images/image-tablet.jpg" media="(min-width: 768px)">
+                    <img src="./images/image-mobile.jpg">
+                </picture>
+
                 <div class="team-info">
                     <a href="/" class="team-link"> команда
                         <img src="./images/vector-right.png">
