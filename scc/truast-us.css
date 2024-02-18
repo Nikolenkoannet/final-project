@@ -1,0 +1,78 @@
+.trust-us {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: stretch;
+    margin-bottom: 30px;
+  }
+  
+  .title-trust {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #323264;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  
+  .trust-item {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tablet-logo {
+    display: none;
+  }
+  
+  .hillel {
+    background-color: #1C4280;
+  }
+  
+  .wannabiz {
+    background-color: #143646;
+  }
+  
+  .tapgerine {
+    background-color: #F48B30;
+  }
+  
+  .dlook {
+    background-color: #9E4DC3;
+  }
+  
+  .orangear {
+    background-color: #FD9339;
+  }
+  
+  .adtelligent {
+    background-color: #E2E2E4;
+  }
+  
+  .clickky {
+    background-color: #C71C36;
+  }
+  
+  .ecolease {
+    background-color: #DCF3F9;
+  }
+  
+  .inratek {
+    background-color: #EAEAEA;
+  }
+  
+  .city-par {
+    background-color: #282240;
+  }
+  
+  .artprint {
+    background-color: #1D4568;
+  }
+  
+  .ultimatecard {
+    background-color: #000000;
+  }
