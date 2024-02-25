@@ -24,7 +24,24 @@ body {
 }
 
 
-
+@media (max-width: 767px){
+  .logo-tablet {
+    display: none;
+  }
+  .text-menu {
+    display: none;
+  }
+  .header-adress {
+    display: none;
+  }
+  .header-facebook{
+    display: none;
+  }
+  .button-scroll {
+      transform: translateX(-50%);
+      left: 50%;
+  }
+}
 
 
 @media (min-width: 768px) {
@@ -32,6 +49,33 @@ body {
     padding-left: 60px;
     padding-right: 60px;
   }
+  .header {
+    background-color: transparent;
+    padding-left: 60px;
+    justify-content: flex-start;
+  }
+  .logo {
+    display: none;
+  }
+  .logo-tablet {
+    padding-left: 60px;
+  }
+  .menu {
+  display: none;
+  }
+  .logo-menu{
+    padding: 0px;
+  }
+  .text-menu{
+    padding-left: 60px;
+  }
+  .header-view-tablet{
+    display: flex;
+  }
+  .button-scroll {
+    transform: translateX(-50%);
+    left: 50%;
+}
   .tablet-logo {
     display: grid;
   }
@@ -47,11 +91,9 @@ body {
   .publications-box{
     grid-template-columns: repeat(2, 1fr);
   }
-
   .on-map {
     flex-direction: row;
     justify-content: flex-start;
-    
    
   }
   .on-map p::after{
@@ -103,7 +145,18 @@ body {
     padding-left: 60px;
     padding-right: 60px;
   }
- 
+  .header-view-tablet {
+    justify-content: flex-end;    
+  }
+  .text-menu {
+    justify-content: flex-end;
+    margin-right: 60px;
+  }
+  .header-view-desktop {
+    display: flex;
+  }
+
+
   .about-us {
     display: flex;
     flex-direction: row;
@@ -161,6 +214,15 @@ body {
     padding-left: 160px;
     padding-right: 160px;
   }
+  .text-menu {
+    margin-right: 160px;
+  }
+  .logo-menu {
+    margin-left: 160px;
+  }
+  .button-scroll {
+   margin-top: 60px;
+}
   .services-box {
     display: grid;
     gap: 60px;
